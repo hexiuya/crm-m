@@ -1,4 +1,4 @@
-FROM openjdk
+FROM openjdk:8
 VOLUME /tmp
 ADD target/crm_mgr_test-0.0.1-SNAPSHOT.jar crm_mgr_test-0.0.1-SNAPSHOT.jar
 EXPOSE 7112
